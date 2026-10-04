@@ -10,6 +10,7 @@
 
 <상황>
 github에서 repository 생성 (initial commit 또한 자동 생성)
+
 <img width="251" height="66" alt="image" src="https://github.com/user-attachments/assets/cdbce315-a634-4cf4-8447-9ccea807713e" />
 
 로컬 git에서 github의 프로젝트와 연결 (remote add)
