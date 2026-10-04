@@ -2,6 +2,7 @@
 실습 프로젝트에 추가하기 전 각종 테스트를 진행하는 곳 (커밋 기록 또한 과제에서 제한하기 때문)
 
 1.원격저장소의 커밋과 로컬저장소의 커밋이 다른 경우
+
 <img width="397" height="115" alt="스크린샷 2026-10-04 104246" src="https://github.com/user-attachments/assets/dfa1f57d-39ac-4475-9e4f-b72bc831ef8a" />
 <img width="547" height="396" alt="스크린샷 2026-10-04 104058" src="https://github.com/user-attachments/assets/8e8d712a-c3c8-4c7a-ab66-ba29711ce8b9" />
 
