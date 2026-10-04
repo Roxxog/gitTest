@@ -10,27 +10,34 @@
 <br>
 <br>
 <상황>
+<br>
 github에서 repository 생성 (initial commit 또한 자동 생성)
 <br>
 <img width="251" height="66" alt="image" src="https://github.com/user-attachments/assets/cdbce315-a634-4cf4-8447-9ccea807713e" />
 <br>
+<br>
 로컬 git에서 github의 프로젝트와 연결 (remote add)
 github의 initial commit을 pull로 가져오지 않고 곧 바로 로컬만의 "첫 커밋" 생성
+<img width="547" height="102" alt="스크린샷 2026-10-04 104058(1)" src="https://github.com/user-attachments/assets/b536b565-1d03-413a-b3cf-736426fcadaa" />
 <br>
 <br>
 <br>
 <br>
 <원인>
+<br>
 github과 git에 존재하는 커밋이 서로 뿌리부터 다름 -> 다른 프로젝트처럼 인식
+기본적으로 로컬이 원격보다 커밋이 앞서야 하며 원격에 있는 커밋은 로컬에도 존재해야 함.
 <br>
 <br>
 <br>
 <br>
 <해결책>
+<br>
 이럴 경우 git pull origin main --allow-unhistories 등으로 github의 커밋을 git으로 가져와야 함
 <img width="450" height="323" alt="image" src="https://github.com/user-attachments/assets/52b567cb-1fd1-49dd-85da-7954cfb07b80" />
-
-기본적으로 로컬이 원격보다 커밋이 앞서야 하며 원격에 있는 커밋은 로컬에도 존재해야 함.
-위는 이런 원칙에서 벗어난 경우이다.
-그러므로 항상 로컬에서 작업할 시 pull을 이용하여 github의 커밋을 가져온 후 변경하여 push 해야 함
+<br>
+<br>
+<br>
+<br>
+항상 로컬에서 작업할 시 pull을 이용하여 github의 커밋을 가져온 후 변경하여 push 해야 함
 (pull --> push)
